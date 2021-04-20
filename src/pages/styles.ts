@@ -2,6 +2,7 @@ import { StyleSheet } from 'react-native';
 import colors from '../../styles/colors';
 
 export const styles = StyleSheet.create({
+      
       container:{
             flex: 1,
             backgroundColor: '#fff',
@@ -21,10 +22,8 @@ export const styles = StyleSheet.create({
             paddingHorizontal: 20,
             textAlign: 'center',
             color: colors.heading,
-            bottom: 5,    
+            bottom: 5, 
       },
-
-
 
       image:{
             width: 292,
