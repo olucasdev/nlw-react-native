@@ -38,7 +38,7 @@ export function UserIdentification(){
         <SafeAreaView style={styles.container}>
             <KeyboardAvoidingView style={styles.container} 
             behavior={Platform.OS == 'ios' ? 'padding' : 'height'}>
-            <TouchableWithoutFeedback onPress={Keyboard.dismiss} />
+            <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
             <View style={styles.content}>
                 <View style={styles.form}>
                 <View style={styles.header}>
@@ -64,6 +64,7 @@ export function UserIdentification(){
                     </View>
                 </View>
             </View>
+            </TouchableWithoutFeedback>
           </KeyboardAvoidingView>
         </SafeAreaView>
     )
